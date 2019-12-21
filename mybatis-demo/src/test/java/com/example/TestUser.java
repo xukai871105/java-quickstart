@@ -34,4 +34,13 @@ public class TestUser {
         }
     }
 
+    @Test
+    public void testQueryUserByName() {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+
+        UserDO userDO = userMapper.queryUserByName("xukai");
+        System.out.printf("%s %d\n", userDO.getName(), userDO.getAge());
+    }
+
 }

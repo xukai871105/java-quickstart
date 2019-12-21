@@ -12,4 +12,8 @@
     <select id="queryAll" resultMap="userMap">
         select * from users
     </select>
+
+    <select id="queryUserByName" resultMap="userMap">
+        select * from users where name = #{name}
+    </select>
 </mapper>
