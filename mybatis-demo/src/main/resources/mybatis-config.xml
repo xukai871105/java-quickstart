@@ -15,6 +15,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="sqlmapper/UserDAO.xml"/>
+        <mapper resource="sqlmapper/UserMapper.xml"/>
     </mappers>
 </configuration>
