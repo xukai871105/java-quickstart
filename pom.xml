@@ -12,6 +12,7 @@
         <module>netty-udp</module>
         <module>netty-tcp</module>
         <module>mybatis-demo</module>
+        <module>tutorial-demo</module>
     </modules>
 
     <properties>
