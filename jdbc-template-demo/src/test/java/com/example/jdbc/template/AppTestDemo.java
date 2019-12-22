@@ -42,7 +42,6 @@ public class AppTestDemo {
         JdbcTemplate jdbcTemplate = new JdbcTemplate();
         // 这里也可以使用构造方法
         jdbcTemplate.setDataSource(dataSource);
-
         // sql语句
         String sql = "select * from countries";
 
