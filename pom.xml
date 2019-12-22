@@ -15,6 +15,7 @@
         <module>tutorial-demo</module>
         <module>udp-demo</module>
         <module>logger-demo</module>
+        <module>jdbc-template-demo</module>
     </modules>
 
     <properties>
