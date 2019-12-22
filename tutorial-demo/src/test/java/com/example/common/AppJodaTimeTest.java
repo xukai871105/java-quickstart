@@ -5,7 +5,7 @@ import org.joda.time.format.ISODateTimeFormat;
 import org.junit.Test;
 
 /**
- * @author zuoxiang.xk
+ * @author xukai
  * @date 2019/06/19
  */
 public class AppJodaTimeTest {
