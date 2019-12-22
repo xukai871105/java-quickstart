@@ -13,6 +13,8 @@
         <module>netty-tcp</module>
         <module>mybatis-demo</module>
         <module>tutorial-demo</module>
+        <module>udp-demo</module>
+        <module>logger-demo</module>
     </modules>
 
     <properties>
@@ -27,6 +29,7 @@
                 <artifactId>netty-all</artifactId>
                 <version>4.1.43.Final</version>
             </dependency>
+            <!-- slf4j  -->
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
