@@ -1,4 +1,3 @@
-/.idea/
-/java-quickstart.iml
-*/target/classes/
+.idea/
 *.iml
+*/target/

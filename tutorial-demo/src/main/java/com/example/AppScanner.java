@@ -1,6 +1,9 @@
 package com.example;
 import java.util.Scanner;
 
+/**
+ * @author xukai
+ */
 public class AppScanner {
 
     public static void main(String[] argv) {
