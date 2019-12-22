@@ -1,4 +1,4 @@
-package com.example.common;
+package com.example.time;
 
 import java.util.Date;
 
@@ -11,10 +11,11 @@ import org.apache.commons.lang3.time.DateUtils;
  * @author xukai
  * @date 2019/11/26
  */
-public class DateTimeUtilTest {
+public class ApacheDateTimeUtilTest {
 
     @Test
     public void testCommon() {
+
         Date date = new Date();
         // 格式化Date类型时间
         String dateString = DateFormatUtils.format(date, "yyyy-MM-dd HH:mm:ss");
