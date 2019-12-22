@@ -9,7 +9,9 @@ import io.netty.channel.socket.DatagramPacket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
+/**
+ * @author xukai
+ */
 public class UdpServerHandler extends SimpleChannelInboundHandler<DatagramPacket> {
 
     private static final Logger log = LoggerFactory.getLogger(UdpServerHandler.class);

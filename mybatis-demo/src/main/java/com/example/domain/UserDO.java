@@ -1,5 +1,8 @@
 package com.example.domain;
 
+/**
+ * @author xukai
+ */
 public class UserDO {
     private Integer id;
     private String name;
@@ -27,5 +30,14 @@ public class UserDO {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "UserDO{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
