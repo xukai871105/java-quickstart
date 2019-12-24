@@ -14,6 +14,10 @@ public class AppTestDemo {
 
     @BeforeClass
     public static void beforeClass(){
+        /**
+         * 使用Spring方式可以@Bean方式构造
+         * @Bean("dataSource")
+         */
         dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
         dataSource.setUrl("jdbc:postgresql://localhost:5432/iotwuxi");

@@ -12,6 +12,10 @@ import org.junit.Test;
 import java.io.Reader;
 import java.util.List;
 
+/**
+ * 參考資料 https://mybatis.org/mybatis-3/zh/getting-started.html
+ * @author xukai
+ */
 public class TestUser {
 
     private SqlSessionFactory sqlSessionFactory;
