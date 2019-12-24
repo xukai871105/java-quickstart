@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.mapper.CountryMapper">
+    <resultMap id="countryMap" type="com.example.domain.CountryDO">
+        <id property="id" column="id"/>
+        <id property="countryCode" column="countryCode" />
+        <id property="countryName" column="countryName" />
+    </resultMap>
+    <select id="findAllCountries" resultMap="countryMap">
+        select * from countries
+    </select>
+
+</mapper>
