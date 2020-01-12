@@ -19,6 +19,7 @@
         <module>maven-executable-demo</module>
         <module>mybatis-spring-demo</module>
         <module>quartz-demo</module>
+        <module>fastjson-demo</module>
     </modules>
 
     <properties>
@@ -85,6 +86,13 @@
                 <artifactId>guava</artifactId>
                 <version>28.1-jre</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.60</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
