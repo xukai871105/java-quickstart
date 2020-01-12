@@ -4,6 +4,7 @@
     <contextName>myAppName</contextName>
 
     <property name="APP_NAME" value="my-logger-demo" />
+    <!--  user.home JVM环境变量  -->
     <property name="LOG_PATH" value="${user.home}/${APP_NAME}/logs" />
     <property name="LOG_FILE" value="${LOG_PATH}/application.log" />
 

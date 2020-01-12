@@ -18,6 +18,7 @@
         <module>jdbc-template-demo</module>
         <module>maven-executable-demo</module>
         <module>mybatis-spring-demo</module>
+        <module>quartz-demo</module>
     </modules>
 
     <properties>
